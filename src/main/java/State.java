@@ -23,7 +23,7 @@ class UserSession extends Session {
     @Override
     boolean logout() {
         System.out.println("logging you out!");
-
+        return false;
     }
 }
 class NoUserSession extends Session {
